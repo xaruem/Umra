@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umra Jamiyati — Umra safaringiz ishonchli qo'llarda</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <svg class="logo__icon" width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 2L17 14L2 26" stroke="#0E3B30" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M32 2L17 14L32 26" stroke="#1FA868" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="logo__text">
+          <span class="logo__title">UMRA</span>
+          <span class="logo__subtitle">JAMIYATI</span>
+        </div>
+      </div>
+      <a href="tel:+998553022222" class="btn btn--phone">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>+998 55 302 22 22</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO + FORM -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">📦 MUBORAK UMRA SAFARI</span>
+          <h1 class="hero__title">Umra safaringiz<br><span class="text-accent">ishonchli qo'llarda</span></h1>
+          <p class="hero__desc">Davlat litsenziyasiga ega Buxoro Umra Jamiyati bilan xotirjam safar qiling.</p>
+          <div class="hero__tags">
+            <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#1FA868" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Davlat litsenziyasi</span>
+            <span class="tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z" stroke="#1FA868" stroke-width="2" stroke-linejoin="round"/></svg> 100 000+ ziyoratchi</span>
+          </div>
+        </div>
+
+        <div class="form-card" id="ariza">
+          <h2 class="form-card__title">Ariza qoldiring</h2>
+          <p class="form-card__desc">Ism va raqamingizni qoldiring, tez orada bog'lanamiz.</p>
+
+          <form id="arizaForm" novalidate>
+            <div class="package-select" role="group" aria-label="Paket tanlang">
+              <button type="button" class="package-btn" data-package="Standart · $990">Standart · $990</button>
+              <button type="button" class="package-btn package-btn--active" data-package="Comfort · $1190">Comfort · $1 190</button>
+            </div>
+
+            <label class="field-label" for="name">Ismingiz</label>
+            <input class="field-input" type="text" id="name" name="name" placeholder="Ism familiyangiz" required>
+
+            <label class="field-label" for="phone">Telefon raqamingiz</label>
+            <input class="field-input" type="tel" id="phone" name="phone" placeholder="+998" value="+998" required>
+
+            <button type="submit" class="btn btn--primary btn--block">Ariza yuborish</button>
+            <p class="form-card__note">🔒 Ma'lumotlaringiz uchinchi shaxslarga berilmaydi</p>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats">
+      <div class="container stats__inner">
+        <div class="stat">
+          <span class="stat__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="7" r="4" stroke="#fff" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <div>
+            <strong>100 000+</strong>
+            <span>Ziyoratchiga xizmat</span>
+          </div>
+        </div>
+        <div class="stat">
+          <span class="stat__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <div>
+            <strong>Rasmiy</strong>
+            <span>Davlat litsenziyasi</span>
+          </div>
+        </div>
+        <div class="stat">
+          <span class="stat__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <div>
+            <strong>To'liq</strong>
+            <span>Viza · chipta · mehmonxona</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="section" id="paketlar">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge badge--light">PAKETLAR</span>
+          <h2 class="section__title">O'zingizga mos paketni tanlang</h2>
+          <p class="section__desc">Har bir paket to'liq xizmatni o'z ichiga oladi. Ariza qoldiring — biz sizga batafsil ma'lumot beramiz.</p>
+        </div>
+
+        <div class="plans">
+          <div class="plan-card">
+            <h3 class="plan-card__name">Standart</h3>
+            <div class="plan-card__stars">★★★ <span>3 yulduzli mehmonxona</span></div>
+            <div class="plan-card__price"><span class="price">$990</span><span class="per"> / kishi</span></div>
+            <p class="plan-card__sub">To'liq xizmat — qulay narxda.</p>
+            <ul class="plan-card__list">
+              <li>Umra vizasi</li>
+              <li>Aviachipta (borish-kelish)</li>
+              <li>Mehmonxona</li>
+              <li>Transport</li>
+              <li>3 mahal ovqat</li>
+              <li>Ziyorat dasturi</li>
+              <li>Diniy rahbar hamrohligi</li>
+            </ul>
+            <button type="button" class="btn btn--outline btn--block js-scroll-to-form" data-package="Standart · $990">Ariza qoldirish</button>
+          </div>
+
+          <div class="plan-card plan-card--popular">
+            <span class="plan-card__badge">OMMABOP</span>
+            <h3 class="plan-card__name">Comfort</h3>
+            <div class="plan-card__stars">★★★★ <span>4 yulduzli mehmonxona</span></div>
+            <div class="plan-card__price"><span class="price">$1 190</span><span class="per"> / kishi</span></div>
+            <p class="plan-card__sub">Yaxshilangan shart-sharoit va qulaylik.</p>
+            <ul class="plan-card__list">
+              <li>Umra vizasi</li>
+              <li>Aviachipta (borish-kelish)</li>
+              <li>Qulayroq mehmonxona</li>
+              <li>Transport</li>
+              <li>3 mahal ovqat</li>
+              <li>Ziyorat dasturi</li>
+              <li>Diniy rahbar hamrohligi</li>
+            </ul>
+            <button type="button" class="btn btn--primary btn--block js-scroll-to-form" data-package="Comfort · $1190">Ariza qoldirish</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--muted" id="xizmatlar">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge badge--light">XIZMATLAR</span>
+          <h2 class="section__title">Narxga nima kiradi</h2>
+          <p class="section__desc">Safaringiz boshidan oxirigacha to'liq tashkil etiladi.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <span class="service-card__icon">🛂</span>
+            <span class="service-card__title">Umra vizasi</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">✈️</span>
+            <span class="service-card__title">Aviachipta</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">🏨</span>
+            <span class="service-card__title">Mehmonxona</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">🚐</span>
+            <span class="service-card__title">Transport</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">🛡️</span>
+            <span class="service-card__title">Ziyorat dasturi</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">🧕</span>
+            <span class="service-card__title">Diniy rahbar</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">🍽️</span>
+            <span class="service-card__title">3 mahal ovqat</span>
+          </div>
+          <div class="service-card">
+            <span class="service-card__icon">✅</span>
+            <span class="service-card__title">To'liq hamrohlik</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section class="section" id="shartlar">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge badge--light">SHARTLAR</span>
+          <h2 class="section__title">Ariza uchun talablar</h2>
+        </div>
+
+        <div class="req-grid">
+          <div class="req-card">
+            <span class="req-card__icon">👤</span>
+            <div>
+              <strong>18 yoshdan katta</strong>
+              <p>Ariza beruvchi 18 yoshga to'lgan bo'lishi kerak</p>
+            </div>
+          </div>
+          <div class="req-card">
+            <span class="req-card__icon">📄</span>
+            <div>
+              <strong>Chet el (qizil) pasporti</strong>
+              <p>Amal qilish muddati yetarli bo'lgan biometrik pasport</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--muted" id="boglanish">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge badge--light">BOG'LANISH</span>
+          <h2 class="section__title">Biz bilan bog'laning</h2>
+          <p class="section__desc">Savollaringiz bo'lsa, qulay usulda murojaat qiling.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-list">
+            <a href="tel:+998553022222" class="contact-card">
+              <span class="contact-card__icon">📞</span>
+              <div>
+                <span class="contact-card__label">Telefon</span>
+                <strong>+998 55 302 22 22</strong>
+              </div>
+            </a>
+            <a href="https://instagram.com/buxoro_umra_jamiyati" target="_blank" rel="noopener" class="contact-card">
+              <span class="contact-card__icon">📷</span>
+              <div>
+                <span class="contact-card__label">Instagram</span>
+                <strong>@buxoro_umra_jamiyati</strong>
+              </div>
+            </a>
+            <a href="https://t.me/buxoro_umra_jamiyati" target="_blank" rel="noopener" class="contact-card">
+              <span class="contact-card__icon">📨</span>
+              <div>
+                <span class="contact-card__label">Telegram</span>
+                <strong>buxoro_umra_jamiyati</strong>
+              </div>
+            </a>
+            <div class="contact-card contact-card--static">
+              <span class="contact-card__icon">📍</span>
+              <div>
+                <span class="contact-card__label">Manzil</span>
+                <strong>Abu Ali ibn Sino ko'chasi 6-uy, Buxoro — Fayzobod masjidi yonida</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-wrap">
+            <iframe
+              class="map-frame"
+              title="Manzil xaritada"
+              src="https://www.google.com/maps?q=Abu+Ali+ibn+Sino+6,+Buxoro&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="btn btn--outline btn--block" href="https://maps.google.com/?q=Abu+Ali+ibn+Sino+6,+Buxoro" target="_blank" rel="noopener">Yo'l ko'rsatish →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta">
+          <h2 class="cta__title">Umra safaringizni bugun rejalashtiring</h2>
+          <p class="cta__desc">Ariza qoldiring — mutaxassislarimiz siz bilan bog'lanib, barcha savollaringizga javob beradi.</p>
+          <button type="button" class="btn btn--light js-scroll-to-form">Ariza qoldirish</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col footer__col--brand">
+        <div class="logo logo--light">
+          <svg class="logo__icon" width="30" height="24" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L17 14L2 26" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M32 2L17 14L32 26" stroke="#1FA868" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div class="logo__text">
+            <span class="logo__title logo__title--light">UMRA</span>
+            <span class="logo__subtitle">JAMIYATI</span>
+          </div>
+        </div>
+        <p class="footer__desc">Davlat tomonidan rasmiy litsenziyalangan Umra xizmatlari tashkiloti. Ishonch, halollik va to'liq xizmat.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com/buxoro_umra_jamiyati" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+          <a href="https://t.me/buxoro_umra_jamiyati" target="_blank" rel="noopener" aria-label="Telegram">📨</a>
+          <a href="tel:+998553022222" aria-label="Telefon">📞</a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Bo'limlar</h4>
+        <a href="#paketlar">Paketlar</a>
+        <a href="#boglanish">Bog'lanish</a>
+        <a href="#ariza">Ariza qoldirish</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Aloqa</h4>
+        <p>+998 55 302 22 22</p>
+        <p>Abu Ali ibn Sino ko'chasi 6-uy, Buxoro — Fayzobod masjidi yonida</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Buxoro Umra Jamiyati. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-cta">
+    <button type="button" class="btn btn--primary js-scroll-to-form">Ariza qoldirish</button>
+    <a href="tel:+998553022222" class="btn btn--icon" aria-label="Qo'ng'iroq qilish">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
